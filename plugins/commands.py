@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎥movie request group🎥', url='https://t.me/cinemgraamam_requestgroup'),
-                        InlineKeyboardButton('updates🥳', url='https://t.me/FILMCORNER369')
+                        InlineKeyboardButton('🎥GROUP🎥', url='https://t.me/Tiger_chats'),
+                        InlineKeyboardButton('CHANNEL', url='https://t.me/FILMCORNER369')
                     ]
                     ]
                                              
@@ -100,11 +100,11 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ourgroup🤩", url="https://t.me/moviekuttan"),
+                        InlineKeyboardButton("ourgroup🤩", url="https://t.me/Tiger_chats"),
                     
-                        InlineKeyboardButton("🎬new release channel🎬", url="https://t.me/ProSearchBots"),
+                        InlineKeyboardButton("🎬 CHANNEL 🎬", url="https://t.me/FILMCORNER369"),
                     ],[
-                        InlineKeyboardButton("updates🥳", url="https://t.me/ProSearchBot")
+                        InlineKeyboardButton("BOT🥳", url="https://t.me/MalluSearchBot")
                     
                     ],
                     [
@@ -201,9 +201,9 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Up Channel', url='https://t.me/ott_releases_only'),
+            InlineKeyboardButton('Up Channel', url='https://t.me/FILMCORNER369'),
             
-            InlineKeyboardButton('share and support', url='https://t.me/share/url?url=https://t.me/cinemgraamam_requestgroup')
+            InlineKeyboardButton('share and support', url='https://t.me/share/url?url=https://t.me/tiger_chats')
         ]
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/cg_suggestionbot'>contact me</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMain Channel : <a href='https://t.me/ott_releases_only'>new releases</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
