@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('🎥movie request group🎥', url='https://t.me/cinemgraamam_requestgroup'),
-                        InlineKeyboardButton('OTT/DVD updates🥳', url='https://t.me/flix_updates')
+                        InlineKeyboardButton('updates🥳', url='https://t.me/FILMCORNER369')
                     ]
                     ]
                                              
@@ -100,11 +100,11 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("our movie group🤩", url="https://t.me/cinemgraamam_requestgroup"),
+                        InlineKeyboardButton("ourgroup🤩", url="https://t.me/moviekuttan"),
                     
-                        InlineKeyboardButton("🎬new release channel🎬", url="https://t.me/ott_releases_only"),
+                        InlineKeyboardButton("🎬new release channel🎬", url="https://t.me/ProSearchBots"),
                     ],[
-                        InlineKeyboardButton("OTT/DVD updates🥳", url="https://t.me/flix_updates")
+                        InlineKeyboardButton("updates🥳", url="https://t.me/ProSearchBot")
                     
                     ],
                     [
@@ -201,7 +201,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/ott_releases_only'),
+            InlineKeyboardButton('Up Channel', url='https://t.me/ott_releases_only'),
             
             InlineKeyboardButton('share and support', url='https://t.me/share/url?url=https://t.me/cinemgraamam_requestgroup')
         ]
