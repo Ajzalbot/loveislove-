@@ -110,13 +110,11 @@ async def start(bot, cmd):
                     [
                                
                    
-                   
-                  
-                        InlineKeyboardButton("About", callback_data="about")
+                
                     ]
                 ]
             )
-        )
+        
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
@@ -199,11 +197,5 @@ async def delete(bot, message):
         await msg.edit('File not found in database')
 @Client.on_message(filters.command('about'))
 async def bot_info(bot, message):
-    buttons = [
-        [
-            InlineKeyboardButton('Up Channel', url='https://t.me/FILMCORNER369'),
-            
-            InlineKeyboardButton('share and support', url='https://t.me/share/url?url=https://t.me/tiger_chats')
-        ]
-        ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/cg_suggestionbot'>contact me</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nMain Channel : <a href='https://t.me/ott_releases_only'>new releases</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+
+   
