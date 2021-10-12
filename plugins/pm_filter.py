@@ -268,17 +268,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
                 )
-                return
-        elif query.data == "about":
-            buttons = [
-                [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
-                ]
-                ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/ajzalk'>ajzal</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com'>ivde click</a>\nUpdate Channel : <a href='https://t.me/MalluSearchBot'>channel</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
-
-
 
         elif query.data.startswith("subinps"):
             ident, file_id = query.data.split("#")
